@@ -13,6 +13,7 @@
 $ sudo service nginx stop
 ```
 ## Скачать образ docker-nginx-вебсервер из репозитория
+
 ```bash
 # img-ы контейнеров в локальном docker хранилище
 $ sudo docker images
@@ -31,7 +32,7 @@ nginx         1.25.3    a6bd71f48f68   3 weeks ago    187MB
 
 user nginx;     # имя пользователя здесь установлено равным
                 # имени пользователя 
-	              # в установочном /etc/nginx/nginx.conf
+	        # в установочном /etc/nginx/nginx.conf
                 # образа из репозитория docker hub
 
 worker_processes auto;
